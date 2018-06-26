@@ -1,0 +1,122 @@
+/* RESET: resetear estilos del navegador --------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Estilos generales --------------- */
+body {
+  width: 100%;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  width: 100%;
+}
+input {
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 16px;
+}
+
+
+/* LAYOUT --------------- */
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: yellow;
+  padding: 1rem;
+}
+.header-logo {
+  width: 3rem;
+}
+.header-form {
+  float: right;
+}
+.header-logout {
+  float: right;
+}
+.header-form input {
+  color: black;
+  display: inline-block;
+}
+.header-form a {
+  padding: 0.5rem;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 640px) {
+  .header-form {
+    float: none;
+  }
+  .header-form input {
+    width: 36%;
+  }
+}
+
+/* Navegación */
+.nav {
+  width: 20%;
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 1rem 1rem 7rem 1rem;
+  text-align: center;
+  float: left;
+}
+.nav p {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.nav a {
+  padding: 1rem;
+  background-color: #fc1a9e;
+  margin-bottom: 1rem;
+  width: 100%;
+  color: white;
+}
+
+/* contenido */
+.main-login {
+  width: 100%;
+}
+
+.main-login span{
+  width: 30%;
+  display: inline-block;
+  margin: 2rem 15rem 1rem 1rem;
+  
+}
+
+.main-login div{
+  width: 57%;
+  display: inline-block;
+  margin: 0rem 1rem 1rem 31rem;
+  
+}
+
+.main-contenido {
+  width: 80%;
+  display: inline-block;
+}
+
+/* breadcrumb */
+.breadcrumb {
+  width: 100%;
+  background-color: #eee;
+}
+.breadcrumb a {
+  color: black;
+  padding: 0.5rem;
+}
