@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   color: black;
 }
+/* Botones y links "a" */
 a {
   text-decoration: none;
   display: inline-block;
@@ -22,12 +23,12 @@ a {
 img {
   width: 100%;
 }
+/* Login */
 input {
   display: inline-block;
   padding: 0.5rem;
   font-size: 16px;
 }
-
 
 /* LAYOUT --------------- */
 
@@ -60,6 +61,7 @@ input {
   .header-form {
     float: none;
   }
+  /* para movil */
   .header-form input {
     width: 36%;
   }
@@ -67,24 +69,30 @@ input {
 
 /* Navegación */
 .nav {
-  width: 20%;
+  width: 17%;
   display: inline-block;
   background-color: #333;
   color: white;
-  padding: 1rem 1rem 7rem 1rem;
+  padding: 1rem 1rem 22rem 1rem;
   text-align: center;
   float: left;
 }
-.nav p {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
+
 .nav a {
-  padding: 1rem;
+  padding: 8px;
   background-color: #fc1a9e;
   margin-bottom: 1rem;
   width: 100%;
   color: white;
+  cursor: pointer;
+}
+#botones a {
+padding: 6px;
+background-color: black;
+  margin-bottom: 1rem;
+  width: 100%;
+  color: white;
+  cursor: pointer;
 }
 
 /* contenido */
@@ -111,12 +119,3 @@ input {
   display: inline-block;
 }
 
-/* breadcrumb */
-.breadcrumb {
-  width: 100%;
-  background-color: #eee;
-}
-.breadcrumb a {
-  color: black;
-  padding: 0.5rem;
-}
