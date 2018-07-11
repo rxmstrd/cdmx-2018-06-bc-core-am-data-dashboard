@@ -70,15 +70,20 @@ __4. Data proporcionada:__
 __5. Insights del negocio:__
 
 ### **3. Ideación**
-(Acá se comienza a pensar esa solución tomando en cuenta la información recopilada y procesada)
+Se revisaron alguna plataformas educativas que se acercaban a lo que el usuario requería para Laboratoria. 
+Se propone motrar una interfaz personalizada con el tema de Laboratoria.
 
 ### **4. Prototipado**
 (Esta es la fase creativa, donde se comienza a construir el Data dashboard con la información obtenida de las fases anteriores. Se reafirma crear la experiencia de usuario, donde la solución resuelve necesidades y facilita la vida)
 
-Sketch: 1,2 (url:test/sketch/)
 
 Prototipo: https://pr.to/NMNA01/
+https://rxmstrd.github.io/cdmx-2018-06-bc-core-am-data-dashboard/ux/sketch/mockup
 
 ### **5. User testing**
-(Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
-****
+Después de recibir el feedback del cliente, se determinó que el primer prototipo no cubría las necesidade del mismo, en primer lugar
+se redujeron el número de pantallas que se proponían, pues no todas presentaban información útil para la TM.
+De acuerdo a ésta información se da también preferencia a información de una sola sede, se eliminan la gráfica comparativas entre sedes,
+así la ventana de alumna con muy poca información.
+
+https://rxmstrd.github.io/cdmx-2018-06-bc-core-am-data-dashboard/ux/sketch/2versión
