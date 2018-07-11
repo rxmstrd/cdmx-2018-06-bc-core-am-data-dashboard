@@ -28,6 +28,8 @@ input {
   display: inline-block;
   padding: 0.5rem;
   font-size: 16px;
+  border-radius: 20px;
+ 
 }
 
 /* LAYOUT --------------- */
@@ -57,20 +59,19 @@ input {
   color: white;
   text-align: center;
 }
+
 @media screen and (max-width: 640px) {
   .header-form {
     float: none;
   }
-  /* para movil */
   .header-form input {
-    width: 36%;
+    width: 35%;
   }
 }
 
 /* Navegación */
 .nav {
   width: 17%;
-  display: inline-block;
   background-color: #333;
   color: white;
   padding: 1rem 1rem 22rem 1rem;
@@ -78,21 +79,36 @@ input {
   float: left;
 }
 
-.nav a {
+.nav-menu p {
+  padding: 4px 0 12px 0;
+  font-size: 1.5rem;
+}
+
+.nav-sedes {
   padding: 8px;
+  font-size: 1.25rem;
   background-color: #fc1a9e;
   margin-bottom: 1rem;
   width: 100%;
   color: white;
   cursor: pointer;
 }
-#botones a {
-padding: 6px;
-background-color: black;
+
+.nav-generacion {
+  padding: 6px;
+  background-color: black;
   margin-bottom: 1rem;
-  width: 100%;
-  color: white;
+  width: 80%;
+  color:whitesmoke;
   cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .nav {
+    width: 100%;
+    padding: 1rem;
+    float: none;
+  }
 }
 
 /* contenido */
@@ -103,19 +119,68 @@ background-color: black;
 .main-login span{
   width: 30%;
   display: inline-block;
-  margin: 2rem 15rem 1rem 1rem;
-  
 }
 
 .main-login div{
   width: 57%;
   display: inline-block;
-  margin: 0rem 1rem 1rem 31rem;
-  
 }
-
+.main-login div img{
+  padding-top: 9rem;
+}
 .main-contenido {
   width: 80%;
   display: inline-block;
+}
+.main-login span{
+  margin: 0 6.5rem 0 0;
+}
+.main-login span img {
+  padding-bottom: 28rem;
+}
+@media screen and (max-width: 640px) {
+  
+  .main-login span{
+    margin: 0 2rem 0 0;
+  }
+  .main-login span img{
+    padding-bottom: 5.5rem;
+  }
+  .main-login{
+    padding-top: 1rem;
+  }
+  .main-login div img{
+    padding-top: 0rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  
+  .main-login span{
+    margin: 0 2rem 0 0;
+  }
+  .main-login span img{
+    padding-bottom: 5.5rem;
+  }
+  .main-login{
+    padding-top: 1rem;
+  }
+  .main-login div img{
+    padding-top: 0rem;
+  }
+  #contenedor{
+    display: inline-block;
+  }
+}
+
+.listaEstudiantes {
+  background: #EBEDEF;
+  display: inline-block;
+  width: 95%;
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+}
+.listaEstudiantes td {
+  width: 40%;
+  
 }
 
