@@ -77,16 +77,16 @@ Se propone motrar una interfaz personalizada con el tema de Laboratoria.
 (Esta es la fase creativa, donde se comienza a construir el Data dashboard con la información obtenida de las fases anteriores. Se reafirma crear la experiencia de usuario, donde la solución resuelve necesidades y facilita la vida)
 
 
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/1scetch1.jpeg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/2sketch2.jpeg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/3login.jpg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/4inicio.jpg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/5Generacione.jpg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/6filtrostatus.jpg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/7tercerageneracion.jpg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/8estudiantes.jpg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/9datoperonales.jpg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/10subtemas.jpg
+![sketch sketch1](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/1scetch1.jpeg?raw=true)
+![sketch sketch2](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/2sketch2.jpeg?raw=true)
+![sketch sketch3](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/3login.jpg?raw=true)
+![sketch sketch$](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/4inicio.jpg?raw=true)
+![sketch sketch5](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/5Generacione.jpg?raw=true)
+![sketch sketch6](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/6filtrostatus.jpg?raw=true)
+![sketch sketch7](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/7tercerageneracion.jpg?raw=true)
+![sketch sketch8](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/8estudiantes.jpg?raw=true)
+![sketch sketch9](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/9datoperonales.jpg?raw=true)
+![sketch sketch10](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/mockup/10subtemas.jpg?raw=true)
 
 
 
@@ -100,10 +100,10 @@ se redujeron el número de pantallas que se proponían, pues no todas presentaba
 De acuerdo a ésta información se da también preferencia a información de una sola sede, se eliminan la gráfica comparativas entre sedes,
 así la ventana de alumna con muy poca información.
 
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/1skecthfeedback1.jpeg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/2sketchfeedback2.jpeg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/3.jpg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/4.jpg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/5.jpg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/6.jpg
-https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/7login.jpg
+![sketch sketch1](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/1skecthfeedback1.jpeg?raw=true)
+![sketch sketch2](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/2sketchfeedback2.jpeg?raw=true)
+![sketch sketch3](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/3.jpg?raw=true)
+![sketch sketch4](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/4.jpg?raw=true)
+![sketch sketch5](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/5.jpg?raw=true)
+![sketch sketch6](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/6.jpg?raw=true)
+![sketch sketch7](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/7login.jpg?raw=true)
