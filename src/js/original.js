@@ -22,3 +22,21 @@
   });
 
 }
+
+window.onload = () => {
+  fetch("../data/laboratoria.json")
+  .then((response)=> response.json()
+  ).then((data)=>{
+    listeners(data);
+  });
+  const listeners = (data) => {
+    const buttons = document.getElementsByClassName("buttons");
+    for (let i = 0; i < buttons.length; i++){
+      buttons[i].addEventListener("click",()=>{
+        //computeStudentsStats(laboratoria);
+        let generations = computeStudentsStats(data);
+        drawGenerations(generations);
+      });
+    }
+  }
+  };

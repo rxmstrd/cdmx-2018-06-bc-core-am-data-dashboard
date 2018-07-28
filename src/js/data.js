@@ -4,7 +4,7 @@ window.onload = () => {
   .then((response) => response.json())
   .then((datos) => {
     console.log('API: ', datos);
-    renderInfo(datos);
+    renderSedes(datos);
     renderGeneraciones(datos);
     renderEstudiantes(datos);
     }).catch(error => {
