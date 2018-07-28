@@ -37,6 +37,10 @@ __Sentimientos:__ Frustración, sensación de tedio.
 __Técnicas usadas en esta fase:__ 
 Entrevista semiestructurada.
 
+Nos acercamos a la TM de la sede México Lucile Baladier con el fin de poder realizar ésta entrevista.
+
+https://drive.google.com/file/d/1CuIYTOwz32jD5Lg_i-Bbtp7PFU1xDJN-/view?usp=sharing
+
 __5. Objetivos del negocio:__ (Enlistarlo(s))
 Construir una interfaz amigable que manipule los distintos datos que la TM requiere de una forma eficaz.
 
