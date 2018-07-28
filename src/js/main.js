@@ -86,43 +86,55 @@ renderGeneraciones = (datos) => {
       const contenedor = document.getElementById('contenedor');
 
       //estudiantes lima tercera
-      // document.getElementById('generacion-lima-tercera').addEventListener("click", ()=>{
-      //   contenedor.innerHTML = '';
-      //   let estudiantes = datos.lima.generacion.tercera.estudiantes;
-      //   for(m = 0; m<estudiantes.length; m++){
-      //   console.log(estudiantes[m].nombre);
-     
       document.getElementById('generacion-lima-tercera').addEventListener("click", ()=>{
         contenedor.innerHTML = '';
-        const table = document.createElement('table');
-        const thead = document.createElement('thead');
-        const tbody = document.createElement('tbody');
-        const tr = document.createElement('tr');
-        
-        titulosTabla.forEach((item)=> {
-          const td = document.createElement('td');
-          td.innerHTML = item;
-          tr.appendChild(td)
-        })
-        thead.appendChild(tr);
-        table.appendChild(thead);
-        table.appendChild(tbody);
-        table.classList.add("listaEstudiantes");
-        
         let estudiantes = datos.lima.generacion.tercera.estudiantes;
         for(m = 0; m<estudiantes.length; m++){
-          console.log(estudiantes[m].nombre);
-          tbody.innerHTML += ` 
-            <tr>
-              <td><a style="color:blue; cursor:pointer;" id="${estudiantes[m].correo}">${estudiantes[m].nombre}</a></td>
-              <td>${estudiantes[m].correo}</td>
-              <td>${estudiantes[m].turno}</td>
-              <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
-            </tr>`
-        }
-        titulos.innerHTML= "Estudiantes Lima Tercera Generación" 
-        contenedor.appendChild(table);
+        contenedor.innerHTML += `<div class="cardEstudiante">
+        <div class="informacionEstudiante">
+        <p>Nombre: ${estudiantes[m].nombre}</p>
+        <p>Correo: ${estudiantes[m].correo}</p>
+        <p>Turno: ${estudiantes[m].turno}</p>
+        <p>Progreso: ${estudiantes[m].progreso.porcentajeCompletado}% Completado</p> `;
+        
+      
+      }
+      titulos.innerHTML= "Estudiantes Lima Tercera Generación" 
+        contenedor.innerHTML;
       })
+
+     
+      // document.getElementById('generacion-lima-tercera').addEventListener("click", ()=>{
+      //   contenedor.innerHTML = '';
+      //   const table = document.createElement('table');
+      //   const thead = document.createElement('thead');
+      //   const tbody = document.createElement('tbody');
+      //   const tr = document.createElement('tr');
+        
+      //   titulosTabla.forEach((item)=> {
+      //     const td = document.createElement('td');
+      //     td.innerHTML = item;
+      //     tr.appendChild(td)
+      //   })
+      //   thead.appendChild(tr);
+      //   table.appendChild(thead);
+      //   table.appendChild(tbody);
+      //   table.classList.add("listaEstudiantes");
+        
+      //   let estudiantes = datos.lima.generacion.tercera.estudiantes;
+      //   for(m = 0; m<estudiantes.length; m++){
+      //     console.log(estudiantes[m].nombre);
+      //     tbody.innerHTML += ` 
+      //       <tr>
+      //         <td><a style="color:blue; cursor:pointer;" id="${estudiantes[m].correo}">${estudiantes[m].nombre}</a></td>
+      //         <td>${estudiantes[m].correo}</td>
+      //         <td>${estudiantes[m].turno}</td>
+      //         <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
+      //       </tr>`
+      //   }
+      //   titulos.innerHTML= "Estudiantes Lima Tercera Generación" 
+      //   contenedor.appendChild(table);
+      // })
       // estudiantes lima cuarta
       document.getElementById('generacion-lima-cuarta').addEventListener("click", ()=>{
         contenedor.innerHTML = '';
