@@ -170,7 +170,12 @@ input {
   #contenedor{
     display: inline-block;
   }
-}
+  #titulos{
+    font-size: 2rem;
+    display: inline-block;
+    padding: 2rem 1rem 0 8rem;  
+  }
+
 
 .listaEstudiantes {
   background: #EBEDEF;

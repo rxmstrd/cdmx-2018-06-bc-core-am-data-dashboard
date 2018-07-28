@@ -85,7 +85,13 @@ renderGeneraciones = (datos) => {
       // contenedor principal
       const contenedor = document.getElementById('contenedor');
 
-      // estudiantes lima tercera
+      //estudiantes lima tercera
+      // document.getElementById('generacion-lima-tercera').addEventListener("click", ()=>{
+      //   contenedor.innerHTML = '';
+      //   let estudiantes = datos.lima.generacion.tercera.estudiantes;
+      //   for(m = 0; m<estudiantes.length; m++){
+      //   console.log(estudiantes[m].nombre);
+     
       document.getElementById('generacion-lima-tercera').addEventListener("click", ()=>{
         contenedor.innerHTML = '';
         const table = document.createElement('table');
@@ -106,7 +112,7 @@ renderGeneraciones = (datos) => {
         let estudiantes = datos.lima.generacion.tercera.estudiantes;
         for(m = 0; m<estudiantes.length; m++){
           console.log(estudiantes[m].nombre);
-          tbody.innerHTML += `
+          tbody.innerHTML += ` 
             <tr>
               <td><a style="color:blue; cursor:pointer;" id="${estudiantes[m].correo}">${estudiantes[m].nombre}</a></td>
               <td>${estudiantes[m].correo}</td>
@@ -114,6 +120,7 @@ renderGeneraciones = (datos) => {
               <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
             </tr>`
         }
+        titulos.innerHTML= "Estudiantes Lima Tercera Generación" 
         contenedor.appendChild(table);
       })
       // estudiantes lima cuarta
@@ -145,6 +152,7 @@ renderGeneraciones = (datos) => {
               <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
             </tr>`
         }
+        titulos.innerHTML= "Estudiantes Lima Cuarta Generación" 
         contenedor.appendChild(table);
       })
       // estudiantes lima quinta
@@ -176,38 +184,7 @@ renderGeneraciones = (datos) => {
               <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
             </tr>`
         }
-        contenedor.appendChild(table);
-      })
-
-      // estudiantes mexico tercera
-      document.getElementById('generacion-mexico-tercera').addEventListener("click", ()=>{
-        contenedor.innerHTML = '';
-        const table = document.createElement('table');
-        const thead = document.createElement('thead');
-        const tbody = document.createElement('tbody');
-        const tr = document.createElement('tr');
-        
-        titulosTabla.forEach((item)=> {
-          const td = document.createElement('td');
-          td.innerHTML = item;
-          tr.appendChild(td)
-        })
-        thead.appendChild(tr);
-        table.appendChild(thead);
-        table.appendChild(tbody);
-        table.classList.add("listaEstudiantes");
-        
-        let estudiantes = datos.mexico.generacion.tercera.estudiantes;
-        for(m = 0; m<estudiantes.length; m++){
-          console.log(estudiantes[m].nombre);
-          tbody.innerHTML += `
-            <tr>
-              <td><a style="color:blue; cursor:pointer;" id="${estudiantes[m].correo}">${estudiantes[m].nombre}</a></td>
-              <td>${estudiantes[m].correo}</td>
-              <td>${estudiantes[m].turno}</td>
-              <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
-            </tr>`
-        }
+        titulos.innerHTML= "Estudiantes Lima Quinta Generación" 
         contenedor.appendChild(table);
       })
       // estudiantes mexico tercera
@@ -239,8 +216,10 @@ renderGeneraciones = (datos) => {
               <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
             </tr>`
         }
+        titulos.innerHTML= "Estudiantes México Tercera Generación" 
         contenedor.appendChild(table);
       })
+      
       // estudiantes mexico cuarta
       document.getElementById('generacion-mexico-cuarta').addEventListener("click", ()=>{
         contenedor.innerHTML = '';
@@ -270,6 +249,7 @@ renderGeneraciones = (datos) => {
               <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
             </tr>`
         }
+        titulos.innerHTML= "Estudiantes México Cuarta Generación"
         contenedor.appendChild(table);
       })
       // estudiantes mexico quinta
@@ -301,6 +281,7 @@ renderGeneraciones = (datos) => {
               <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
             </tr>`
         }
+        titulos.innerHTML= "Estudiantes México Quinta Generación"
         contenedor.appendChild(table);
       })
 
@@ -333,6 +314,7 @@ renderGeneraciones = (datos) => {
               <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
             </tr>`
         }
+        titulos.innerHTML= "Estudiantes Santiago Tercera Generación"
         contenedor.appendChild(table);
       })
       // estudiantes santiago cuarta
@@ -364,9 +346,10 @@ renderGeneraciones = (datos) => {
               <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
             </tr>`
         }
+        titulos.innerHTML= "Estudiantes Santiago Cuarta Generación"
         contenedor.appendChild(table);
       })
-      // estudiantes santiago quinta
+      // estudiantes santiago cuarta
       document.getElementById('generacion-santiago-quinta').addEventListener("click", ()=>{
         contenedor.innerHTML = '';
         const table = document.createElement('table');
@@ -395,10 +378,9 @@ renderGeneraciones = (datos) => {
               <td>${estudiantes[m].progreso.porcentajeCompletado}</td>
             </tr>`
         }
+        titulos.innerHTML= "Estudiantes Santiago Quinta Generación"
         contenedor.appendChild(table);
       })
-    
-
       
 
     });
