@@ -37,7 +37,7 @@ __Sentimientos:__ Frustración, sensación de tedio.
 __Técnicas usadas en esta fase:__ 
 Entrevista semiestructurada.
 
-Nos acercamos a la TM de la sede México Lucile Baladier con el fin de poder realizar ésta entrevista.
+Nos acercamos a la TM de la sede México Lucile Baladier con el fin de poder realizarle una entrevista, luego de darnos una cita se llevo a cabo y se adjunta en la siguiente liga.
 
 https://drive.google.com/file/d/1CuIYTOwz32jD5Lg_i-Bbtp7PFU1xDJN-/view?usp=sharing
 
@@ -45,6 +45,7 @@ __5. Objetivos del negocio:__ (Enlistarlo(s))
 Construir una interfaz amigable que manipule los distintos datos que la TM requiere de una forma eficaz.
 
 __6. Motivaciones del negocio para el data dashboard:__(Enlistarlo(s))
+Poder manipular la data del cliente, generando un producto amigable para nuestras usuarias finales.
 
 ### **2. Síntesis y definición**
 (Dada la fase anterior de investigación, ahora vamos a tomar todos los datos más importantes y transformarlos en información valiosa para comenzar a orientarse a la solución. También vamos a entender lo que la empresa quiere de ese producto y comenzar a entender ambas visiones con el fin de encontrar un punto armónico)
