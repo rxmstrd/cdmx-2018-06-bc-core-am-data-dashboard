@@ -102,8 +102,7 @@ Se propone motrar una interfaz personalizada con el tema de Laboratoria.
 ### **5. User testing**
 Después de recibir el feedback del cliente, se determinó que el primer prototipo no cubría las necesidade del mismo, en primer lugar
 se redujeron el número de pantallas que se proponían, pues no todas presentaban información útil para la TM.
-De acuerdo a ésta información se da también preferencia a información de una sola sede, se eliminan la gráfica comparativas entre sedes,
-así la ventana de alumna con muy poca información.
+De acuerdo a ésta información se da también preferencia a información de una sola sede, se eliminan las gráficas comparativas entre sedes,así como la ventana de alumnas que contenía muy poca información.
 
 ![sketch sketch1](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/1skecthfeedback1.jpeg?raw=true)
 ![sketch sketch2](https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard/blob/master/ux/sketch/2versio%CC%81n/2sketchfeedback2.jpeg?raw=true)
