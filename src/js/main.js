@@ -5,9 +5,7 @@ renderSedes = (datos) => {
 // La variable sedes llama al string
   let sedes = Object.keys(datos);
   console.log('sedes:', sedes );
-// el for invoca a lo datos obtenidos del objeto en sedes para iterarlos
   for (let i = 0; i < sedes.length; i++) {
-//la variable sede es igual a la iteracion de sedes
     let sede = sedes[i];
     mostrarSedes += `
       <a class="nav-sedes" id="sedes-${sede}">
