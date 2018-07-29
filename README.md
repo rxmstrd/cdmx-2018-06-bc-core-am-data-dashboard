@@ -115,13 +115,13 @@ De acuerdo a ésta información se da también preferencia a información de una
 
 Para realizar modificaciones o contribuciones para mejorar o utilizar éste código requieres:
 
--Instalar un Editor como: Visual Studio Code, Atom, Sublime, etc.
--Intalar una Terminal como Git Bahs o utilizar la terminal de tu equipo de computo
--Forkear o clonal el repositorio a tu ordenador local desde:               https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard.git
--Instalar Node.js así como las dependencias del proyecto
+__1.Instalar un Editor como: Visual Studio Code, Atom, Sublime, etc.
+__2.Intalar una Terminal como Git Bahs o utilizar la terminal de tu equipo de computo
+__3.Forkear o clonal el repositorio a tu ordenador local desde:               https://github.com/rxmstrd/cdmx-2018-06-bc-core-am-data-dashboard.git
+__4.Instalar Node.js así como las dependencias del proyecto
 
 Si requieres mejorar la testeabilidad del código puedes hacerlo incluyendo tus test en:
--src/data.js
+__5.src/data.js
 
 
 
