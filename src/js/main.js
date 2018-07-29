@@ -2,7 +2,6 @@
 renderSedes = (datos) => {
 // La variable contenido se dirige al párrafo sede en html
   let mostrarSedes = "<p>Sedes</p>";
-// La variable sedes llama al string
   let sedes = Object.keys(datos);
   console.log('sedes:', sedes );
   for (let i = 0; i < sedes.length; i++) {
@@ -218,5 +217,4 @@ renderGeneraciones = (datos) => {
     });
 
   }
-
 }
