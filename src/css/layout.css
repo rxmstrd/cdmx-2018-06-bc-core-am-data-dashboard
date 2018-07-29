@@ -131,6 +131,7 @@ input {
 .main-contenido {
   width: 80%;
   display: inline-block;
+  margin: 0 0 0 2rem;
 }
 .main-login span{
   margin: 0 6.5rem 0 0;
@@ -189,8 +190,7 @@ input {
   width: 40%; 
 }
 .cardEstudiante{
-  width: 100%;
-  background-color: #fc1a9e;
+  width: auto;
   display: inline-table;
 } 
 
@@ -199,8 +199,9 @@ input {
   height: 10rem;
   margin: 0.5rem;
   display: inline-block;
-  background-color: #F2FBFA;
+  background-color: #F8F8FF;
   text-align: center;
+  border-style: double;
 }
 
 .informacionEstudiante p{
