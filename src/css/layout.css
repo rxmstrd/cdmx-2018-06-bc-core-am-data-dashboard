@@ -67,6 +67,9 @@ input {
   .header-form input {
     width: 35%;
   }
+  .header-logout {
+    float: none;
+  }
 }
 
 /* Navegación */
@@ -144,11 +147,19 @@ input {
   .main-login span{
     margin: 0 2rem 0 0;
   }
+  .main-login span {
+    width: 100%;
+    display: inline-block;
+  }
   .main-login span img{
     padding-bottom: 5.5rem;
   }
   .main-login{
     padding-top: 1rem;
+  }
+  .main-login div {
+    width: 100%;
+    display: inline-block;
   }
   .main-login div img{
     padding-top: 0rem;
@@ -168,45 +179,49 @@ input {
   .main-login div img{
     padding-top: 0rem;
   }
-  #contenedor{
+  .main-contenido{
     display: inline-block;
+    width: 76%;
   }
-  #titulos{
-    font-size: 2rem;
+  .encabezado{
+    font-size: 1.5rem;
     display: inline-block;
-    padding: 2rem 1rem 0 8rem;  
+    padding: 1.5rem;  
   }
 }
 
-
-.listaEstudiantes {
-  background: #EBEDEF;
-  display: inline-block;
-  width: 95%;
-  margin-top: 3rem;
-  margin-left: 2.5rem;
-}
-.listaEstudiantes td {
-  width: 40%; 
-}
 .cardEstudiante{
   width: auto;
   display: inline-table;
 } 
 
 .informacionEstudiante{
-  width: 20rem;
+  width: 19rem;
   height: 10rem;
-  margin: 0.5rem;
-  display: inline-block;
+  margin: .3rem;
+  display: inline-table;
   background-color: #F8F8FF;
   text-align: center;
   border-style: double;
 }
 
 .informacionEstudiante p{
-  text-align: block;
+  text-align: inline-block;
   padding: .5rem;
+}
 
+@media screen and (max-width: 640px){
+  .cardEstudiante{
+    width: 100%;
+    display: inline-block;
+  } 
+  .informacionEstudiante{
+    width: 100%;
+    background-color:lavender;  
+  }
+  .main-contenido {
+    width: 97%;
+    margin: 0;
+  }
 
 }

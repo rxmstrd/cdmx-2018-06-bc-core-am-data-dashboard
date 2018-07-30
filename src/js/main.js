@@ -82,7 +82,7 @@ renderGeneraciones = (datos) => {
         <p>Turno: ${estudiantes[m].turno}</p>
         <p>Progreso: ${estudiantes[m].progreso.porcentajeCompletado}% Completado</p> `;    
       }
-      titulos.innerHTML= ("Estudiantes Lima: Tercera Generación")
+      titulos.innerHTML= "Estudiantes Lima: Tercera Generación"
         contenedor.innerHTML;
       })
 
@@ -98,7 +98,7 @@ renderGeneraciones = (datos) => {
         <p>Turno: ${estudiantes[m].turno}</p>
         <p>Progreso: ${estudiantes[m].progreso.porcentajeCompletado}% Completado</p> `;      
       }
-      titulos.innerHTML= ("Estudiantes Lima: Cuarta Generación")
+      titulos.innerHTML= "Estudiantes Lima: Cuarta Generación"
         contenedor.innerHTML;
       })
 
@@ -114,7 +114,7 @@ renderGeneraciones = (datos) => {
         <p>Turno: ${estudiantes[m].turno}</p>
         <p>Progreso: ${estudiantes[m].progreso.porcentajeCompletado}% Completado</p> `;      
       }
-      titulos.innerHTML= ("Estudiantes Lima: Quinta Generación")
+      titulos.innerHTML= "Estudiantes Lima: Quinta Generación"
         contenedor.innerHTML;
       })
 
@@ -146,7 +146,7 @@ renderGeneraciones = (datos) => {
       <p>Turno: ${estudiantes[m].turno}</p>
       <p>Progreso: ${estudiantes[m].progreso.porcentajeCompletado}% Completado</p> `;      
     }
-    titulos.innerHTML= ("Estudiantes México: Cuarta Generación")
+    titulos.innerHTML= "Estudiantes México: Cuarta Generación"
       contenedor.innerHTML;
     })
      
@@ -162,7 +162,7 @@ renderGeneraciones = (datos) => {
       <p>Turno: ${estudiantes[m].turno}</p>
       <p>Progreso: ${estudiantes[m].progreso.porcentajeCompletado}% Completado</p> `;      
     }
-    titulos.innerHTML= ("Estudiantes México: Quinta Generación")
+    titulos.innerHTML= "Estudiantes México: Quinta Generación"
       contenedor.innerHTML;
     })
 
@@ -178,7 +178,7 @@ renderGeneraciones = (datos) => {
       <p>Turno: ${estudiantes[m].turno}</p>
       <p>Progreso: ${estudiantes[m].progreso.porcentajeCompletado}% Completado</p> `;    
     }
-    titulos.innerHTML= ("Estudiantes Santiago: Tercera Generación")
+    titulos.innerHTML= "Estudiantes Santiago: Tercera Generación"
       contenedor.innerHTML;
     })
 
@@ -194,7 +194,7 @@ renderGeneraciones = (datos) => {
       <p>Turno: ${estudiantes[m].turno}</p>
       <p>Progreso: ${estudiantes[m].progreso.porcentajeCompletado}% Completado</p> `;      
     }
-    titulos.innerHTML= ("Estudiantes Santiago: Cuarta Generación")
+    titulos.innerHTML= "Estudiantes Santiago: Cuarta Generación"
       contenedor.innerHTML;
     })
 
@@ -210,11 +210,9 @@ renderGeneraciones = (datos) => {
       <p>Turno: ${estudiantes[m].turno}</p>
       <p>Progreso: ${estudiantes[m].progreso.porcentajeCompletado}% Completado</p> `;      
     }
-    titulos.innerHTML= ("Estudiantes Santiago: Quinta Generación")
+    titulos.innerHTML= "Estudiantes Santiago: Quinta Generación"
       contenedor.innerHTML;
     })
-
     });
-
   }
 }
